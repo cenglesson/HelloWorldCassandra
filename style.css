@@ -1,10 +1,8 @@
 body{
     margin: 0 auto;
     overflow-x: hidden;
-    background-image:linear-gradient(rgba(255, 255, 255, 0.329), rgba(255, 255, 255, 0.336)), url(./images/papper3.jpg); 
-    
+    background-image:linear-gradient(rgba(255, 255, 255, 0.329), rgba(255, 255, 255, 0.336)), url(./images/papper3.jpg);   
 }
-
 
 html {
     scroll-behavior: smooth;
@@ -43,11 +41,8 @@ header {
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    
+    position: relative; 
 }
-
-
 
 .burger h1 {
     text-align: center;  
@@ -117,7 +112,6 @@ header {
     font-size: 19px;
 }
 
-
 /*------------------MAIN-TEXT----GALLERY-------------------*/
 
 .Text-first {
@@ -159,7 +153,6 @@ header {
     padding: 0 2rem;
     flex-direction: column;
     padding-bottom: 2rem;
-    
 }
   
 .grid-container .cards article{
@@ -271,8 +264,7 @@ header {
 
 .textanimation{
     display: grid;
-    grid-area: textanimation;
-    
+    grid-area: textanimation; 
 }
 
 .textanimation > h1 {
@@ -280,8 +272,7 @@ header {
     color: black;
     font-family: 'Fjalla One', sans-serif;
     text-align: center;
-    margin-top: 80px;
-    
+    margin-top: 80px; 
 }
 
 /*------------------CARD-STEAM-----------------------*/
@@ -394,9 +385,6 @@ header video {
 .text-header-gallery {
     display: none;
 }
-
-
-
 
 /*------------------DESKTOP-----------------------*/
 
@@ -518,7 +506,6 @@ header video {
     
       body .wrapper .learn, body .wrapper .join {
         min-height: unset;
-        
       }
 
       header video {
@@ -537,5 +524,4 @@ header video {
     .text-header-gallery {
         display: inline;
     }
-   
 }
