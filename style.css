@@ -526,7 +526,7 @@ header video {
     }
 
     .bg-img2 {
-        background-image:url("../images/header-gallery.png");
+        background-image:url("./Images/header-gallery.png");
         min-height: 520px;
         background-position: top right;
         background-repeat: no-repeat;
