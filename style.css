@@ -1,0 +1,31 @@
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.329), rgba(255, 255, 255, 0.336)), url(./images/papper3.jpg); 
+    
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*------------------RESPONSIVE-MOBILE------------------------*/
+
+.grid-container {
+    -webkit-box-shadow: 0 0 2rem rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.05);
+    max-width: 100%;
+    margin: 0 auto;
+    display: -ms-grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "Text-first"
+    "cards"
+    "textundercards"
+    "gallery-imgs"
+    "textanimation"
+    "cardsteam"
+    "footer";
+}
