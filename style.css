@@ -28,13 +28,12 @@ html {
 }
 /*------------------HEADER-NAVBAR------------------------*/
 
-
 header {
     grid-area: header; 
 }
 
 .bg-img {
-    background-image:url("./images/header-img5.png");
+    background-image:url("./Images/header-img5.png");
     min-height: 240px;
     background-position: top right;
     background-repeat: no-repeat;
@@ -109,6 +108,9 @@ header {
     color: black;
     font-size: 19px;
 }
+
+
+
 /*------------------MAIN-TEXT----GALLERY-------------------*/
 
 .Text-first {
@@ -392,8 +394,7 @@ header video {
     }
 
     .bg-img {
-        background-image: url("./images/header-img5.png");
-        min-height: 550px;
+        min-height: 520px;  
     }
 
     .text-header {
@@ -498,9 +499,9 @@ header video {
         display: none;
     }
 
-    .bg-img2 {
+    .bg-img3 {
         background-image:url("./Images/header-gallery.png");
-        min-height: 520px;
+        min-height: 510px;
         background-position: top right;
         background-repeat: no-repeat;
         background-size: cover;
