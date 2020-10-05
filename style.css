@@ -1,13 +1,12 @@
 body{
     margin: 0 auto;
     overflow-x: hidden;
-    background-image:linear-gradient(rgba(255, 255, 255, 0.329), rgba(255, 255, 255, 0.336)), url(./images/papper3.jpg);   
+    background-image:linear-gradient(rgba(255, 255, 255, 0.329), rgba(255, 255, 255, 0.336)), url(./images/papper3.jpg);    
 }
 
 html {
     scroll-behavior: smooth;
 }
-
 /*------------------RESPONSIVE-MOBILE------------------------*/
 
 .grid-container {
@@ -27,7 +26,6 @@ html {
     "cardsteam"
     "footer";
 }
-
 /*------------------HEADER-NAVBAR------------------------*/
 
 
@@ -111,7 +109,6 @@ header {
     color: black;
     font-size: 19px;
 }
-
 /*------------------MAIN-TEXT----GALLERY-------------------*/
 
 .Text-first {
@@ -122,7 +119,6 @@ header {
 .Text-first article img {
     width: 100%;
 }
-
 
 .textmainh1, .info-gallery h1, .gallery-header h1 {
     font-size: 30px;
@@ -142,9 +138,7 @@ header {
     padding-right: 15px;
     margin-bottom: 30px;
 }
-
 /*------------------CARDS-----------------------*/
-
 
 .grid-container .cards {
     border-radius: 20px;
@@ -202,7 +196,6 @@ header {
 .grid-container .cards article:hover {
     transform: scale(1.1);
 }
-
 /*----------TEXTUNDERCARDS--------------------------*/
 
 .textundercards {
@@ -228,7 +221,6 @@ header {
     padding-right: 15px;
     margin-bottom: 30px;
 }
-
 /*---------------SECTION--------------------*/
 
 .gallery-imgs {
@@ -259,7 +251,6 @@ header {
     z-index: 300;
     transform: scale(1.2);
 }
-
 /*------------------ANIMATION-----------------------*/
 
 .textanimation{
@@ -274,7 +265,6 @@ header {
     text-align: center;
     margin-top: 80px; 
 }
-
 /*------------------CARD-STEAM-----------------------*/
 
 .grid-container .cardsteam {
@@ -352,7 +342,6 @@ header {
     margin-bottom: 56px;
     font-weight: bold;
 }
-
 /*------------FOOTER------------------*/
 
 footer {
@@ -372,7 +361,6 @@ footer a {
 footer a:hover {
     color: burlywood;
 }
-
 /*----------------------------GALLERY-OTHER-SIDE------------------------*/
 
 header video {
@@ -385,7 +373,6 @@ header video {
 .text-header-gallery {
     display: none;
 }
-
 /*------------------DESKTOP-----------------------*/
 
 @media (min-width: 600px) {
@@ -501,7 +488,6 @@ header video {
         padding: 3rem 8rem;  
         background-size: 18rem;
         min-height: unset;
-        
       }
     
       body .wrapper .learn, body .wrapper .join {
