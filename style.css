@@ -32,7 +32,7 @@ header {
     grid-area: header; 
 }
 
-.bg-img {
+.bg-img-index {
     background-image:url("./Images/header-img5.png");
     min-height: 240px;
     background-position: top right;
@@ -393,7 +393,7 @@ header video {
         "footer footer footer";
     }
 
-    .bg-img {
+    .bg-img-index {
         min-height: 520px;  
     }
 
@@ -405,8 +405,8 @@ header video {
     
     .burger {
         font-size: 30px;
-        padding-left: 1310px;
-        padding-top: 20px;
+        margin-left: 30px;
+        
     }
 
     .textmainh1, .info-gallery h1, .gallery-header h1 {
@@ -474,34 +474,13 @@ header video {
         margin-top: 10rem;
     }
 
-    body .wrapper {
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: 16.92rem 16.92rem 4.23rem 38.07rem 12.69rem 29.61rem auto 8.46rem 16.92rem;
-        grid-template-areas: 
-        "welcome welcome welcome learn learn learn" 
-        "welcome welcome welcome learn learn learn" 
-        ;
-      }
-    
-      body .wrapper .welcome {
-        grid-area: welcome;
-        background: var(--light-blue) url(../img/family.png) no-repeat bottom right;
-        padding: 3rem 8rem;  
-        background-size: 18rem;
-        min-height: unset;
-      }
-    
-      body .wrapper .learn, body .wrapper .join {
-        min-height: unset;
-      }
-
-      header video {
+    .gallery-header video {
         display: none;
     }
 
-    .bg-img3 {
+    .bg-img-gallery {
         background-image:url("./Images/header-gallery.png");
-        min-height: 510px;
+        min-height: 600px;
         background-position: top right;
         background-repeat: no-repeat;
         background-size: cover;
