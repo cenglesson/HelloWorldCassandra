@@ -93,11 +93,11 @@ header {
     position: absolute;
     margin-left: 8px;
     margin-top: 10px;
-    color: black;
+    color: rgb(141, 137, 137);
 }
  
 .burger:hover {
-    color: burlywood;
+    color: rgb(3, 3, 3);
 }
 
 .text-header {
@@ -122,7 +122,7 @@ header {
     width: 100%;
 }
 
-.textmainh1, .info-gallery h1, .gallery-header h1 {
+.textmainh1, .info-gallery h1, .video-header h1 {
     font-size: 30px;
     color: black;
     font-family: 'Fjalla One', sans-serif;
@@ -130,7 +130,7 @@ header {
     margin-top: 30px;
 }
 
-.textmainp, .info-gallery p, .gallery-header p {
+.textmainp, .info-gallery p, .video-header p {
     font-size: 14px;
     color: rgb(101, 75, 22);
     font-family: 'Roboto Slab', serif;
@@ -365,7 +365,7 @@ footer a:hover {
 }
 /*----------------------------GALLERY-OTHER-SIDE------------------------*/
 
-header video {
+.video-header video {
     width: 100%;
     height: 240px;
     object-fit: cover;
@@ -374,6 +374,10 @@ header video {
 
 .text-header-gallery {
     display: none;
+}
+
+.burger {
+    z-index: 100;
 }
 /*------------------DESKTOP-----------------------*/
 
@@ -409,7 +413,7 @@ header video {
         
     }
 
-    .textmainh1, .info-gallery h1, .gallery-header h1 {
+    .textmainh1, .info-gallery h1, .video-header h1 {
         font-size: 60px;
         margin-top: 200px;
         padding-left: 350px;
@@ -423,7 +427,7 @@ header video {
         padding-right: 350px;
     }
 
-    .textmainp, .text2wine, .info-gallery p, .gallery-header p {
+    .textmainp, .text2wine, .info-gallery p, .video-header p {
         font-size: 20px;
         padding-left: 350px;
         padding-right: 350px;
@@ -474,13 +478,13 @@ header video {
         margin-top: 10rem;
     }
 
-    .gallery-header video {
+    .video-header video {
         display: none;
     }
 
     .bg-img-gallery {
         background-image:url("./Images/header-gallery.png");
-        min-height: 600px;
+        min-height: 550px;
         background-position: top right;
         background-repeat: no-repeat;
         background-size: cover;
